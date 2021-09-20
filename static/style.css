@@ -23,7 +23,7 @@ html,body {
     margin: 15px auto;
     display: block;
     width: 120px;
-    border: 8px solid #000000;
+    border: 8px solid #1A6070;
     border-radius: 50%;
     
 }
@@ -34,13 +34,13 @@ html,body {
     padding: 0;
     font-weight: 600;
     text-align: center;
-    color: #000000;
+    color: #fff;
 }
 
 #header .profile .social-links a {
     font-size: 1rem;
     background: #1A6070;
-    color: #000000;
+    color: #fff;
     padding: 0.6rem;
     border-radius: 50%;
     transition: 0.3s;
@@ -76,7 +76,7 @@ html,body {
 .nav-menu .active:focus,
 .nav-menu li:hover > a {
     text-decoration: none;
-    color: #000000;
+    color: #fff;
 
 }
 
@@ -93,7 +93,7 @@ html,body {
 }
 
 section#inicio{
-    background-image: url("./img/assets/background.png");
+    background-image: url("./img/assets/bg-portfolio.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -168,4 +168,21 @@ i.menu-mobile{
     #main{
         margin-left: 0;
     }
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+    width: 12px;
+    box-shadow: inset 0 0 .3rem #b3e7f3;
+    background-color: #fff;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: #267384;
+}
+
+.section-bg{
+    background-color: #D7F2F8;
 }
