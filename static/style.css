@@ -184,7 +184,7 @@ i.menu-mobile{
 }
 
 .section-bg{
-    background-color: #D7F2F8;
+    background-color: #e4f8ff;
 }
 
 .cv .cv-title{
@@ -227,4 +227,8 @@ i.menu-mobile{
     border: 2px solid #267384;
     background: #fff;
     border-radius: 50%;
+}
+
+.bg-col{
+    background-color: #267384;
 }
